@@ -11,9 +11,19 @@ namespace API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            using(var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServicesProvider;
+                var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+                try
+                {
+                    var context = services.GetRequiredService<LojaContexto>();
+                    await context.Database.MigrateAsync();
+                }     
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
