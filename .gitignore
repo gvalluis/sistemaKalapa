@@ -1,0 +1,7 @@
+obj
+bin
+API/obj
+API/bin
+appsettings.json
+*.db
+WeatherForecastController.cs
