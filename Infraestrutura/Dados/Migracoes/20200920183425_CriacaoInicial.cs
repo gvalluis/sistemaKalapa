@@ -7,7 +7,7 @@ namespace Infraestrutura.Dados.Migracoes
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "MarcaProduto",
+                name: "CategoriaProduto",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -16,7 +16,7 @@ namespace Infraestrutura.Dados.Migracoes
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MarcaProduto", x => x.Id);
+                    table.PrimaryKey("PK_CategoriaProduto", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -43,15 +43,15 @@ namespace Infraestrutura.Dados.Migracoes
                     Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     UrlFoto = table.Column<string>(nullable: false),
                     IdTipoDeProduto = table.Column<int>(nullable: false),
-                    IdMarcaProduto = table.Column<int>(nullable: false)
+                    IdCategoriaProduto = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Produtos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Produtos_MarcaProduto_IdMarcaProduto",
-                        column: x => x.IdMarcaProduto,
-                        principalTable: "MarcaProduto",
+                        name: "FK_Produtos_CategoriaProduto_IdCategoriaProduto",
+                        column: x => x.IdCategoriaProduto,
+                        principalTable: "CategoriaProduto",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -63,9 +63,9 @@ namespace Infraestrutura.Dados.Migracoes
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Produtos_IdMarcaProduto",
+                name: "IX_Produtos_IdCategoriaProduto",
                 table: "Produtos",
-                column: "IdMarcaProduto");
+                column: "IdCategoriaProduto");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Produtos_IdTipoDeProduto",
@@ -79,7 +79,7 @@ namespace Infraestrutura.Dados.Migracoes
                 name: "Produtos");
 
             migrationBuilder.DropTable(
-                name: "MarcaProduto");
+                name: "CategoriaProduto");
 
             migrationBuilder.DropTable(
                 name: "TipoProdutos");

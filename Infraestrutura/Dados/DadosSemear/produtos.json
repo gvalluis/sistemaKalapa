@@ -5,7 +5,7 @@
     "Preco": 200,
     "UrlFoto": "images/products/sb-ang1.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 1
+    "IdCategoriaProduto": 1
   },
   {
     "Nome": "Maresia de Limão",
@@ -13,7 +13,7 @@
     "Preco": 150,
     "UrlFoto": "images/products/sb-ang2.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 1
+    "IdCategoriaProduto": 1
   },
   {
     "Nome": "Mandarina",
@@ -21,7 +21,7 @@
     "Preco": 180,
     "UrlFoto": "images/products/sb-core1.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 2
+    "IdCategoriaProduto": 2
   },
   {
     "Nome": "Ciranda na Mata",
@@ -29,7 +29,7 @@
     "Preco": 300,
     "UrlFoto": "images/products/sb-core2.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 2
+    "IdCategoriaProduto": 2
   },
   {
     "Nome": "Pote de chocolate 70% ao leite de coco com café",
@@ -37,7 +37,7 @@
     "Preco": 250,
     "UrlFoto": "images/products/sb-react1.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 4
+    "IdCategoriaProduto": 4
   },
   {
     "Nome": "Cremístiko",
@@ -45,7 +45,7 @@
     "Preco": 120,
     "UrlFoto": "images/products/sb-ts1.png",
     "IdTipoDeProduto": 1,
-    "IdMarcaProduto": 5
+    "IdCategoriaProduto": 5
   },
   {
     "Nome": "Pirilampos em Ouro",
@@ -53,7 +53,7 @@
     "Preco": 10,
     "UrlFoto": "images/products/hat-core1.png",
     "IdTipoDeProduto": 2,
-    "IdMarcaProduto": 2
+    "IdCategoriaProduto": 2
   },
   {
     "Nome": "Pote de chocolates de Manjericão",
@@ -61,7 +61,7 @@
     "Preco": 8,
     "UrlFoto": "images/products/hat-react1.png",
     "IdTipoDeProduto": 2,
-    "IdMarcaProduto": 4
+    "IdCategoriaProduto": 4
   },
   {
     "Nome": "Purple React Woolen Hat",
@@ -69,7 +69,7 @@
     "Preco": 15,
     "UrlFoto": "images/products/hat-react2.png",
     "IdTipoDeProduto": 2,
-    "IdMarcaProduto": 4
+    "IdCategoriaProduto": 4
   },
   {
     "Nome": "Blue Code Gloves",
@@ -77,7 +77,7 @@
     "Preco": 18,
     "UrlFoto": "images/products/glove-code1.png",
     "IdTipoDeProduto": 4,
-    "IdMarcaProduto": 3
+    "IdCategoriaProduto": 3
   },
   {
     "Nome": "Green Code Gloves",
@@ -85,7 +85,7 @@
     "Preco": 15,
     "UrlFoto": "images/products/glove-code2.png",
     "IdTipoDeProduto": 4,
-    "IdMarcaProduto": 3
+    "IdCategoriaProduto": 3
   },
   {
     "Nome": "Purple React Gloves",
@@ -93,7 +93,7 @@
     "Preco": 16,
     "UrlFoto": "images/products/glove-react1.png",
     "IdTipoDeProduto": 4,
-    "IdMarcaProduto": 4
+    "IdCategoriaProduto": 4
   },
   {
     "Nome": "Green React Gloves",
@@ -101,7 +101,7 @@
     "Preco": 14,
     "UrlFoto": "images/products/glove-react2.png",
     "IdTipoDeProduto": 4,
-    "IdMarcaProduto": 4
+    "IdCategoriaProduto": 4
   },
   {
     "Nome": "Redis Red Boots",
@@ -109,7 +109,7 @@
     "Preco": 250,
     "UrlFoto": "images/products/boot-redis1.png",
     "IdTipoDeProduto": 3,
-    "IdMarcaProduto": 6
+    "IdCategoriaProduto": 6
   },
   {
     "Nome": "Core Red Boots",
@@ -117,7 +117,7 @@
     "Preco": 189.99,
     "UrlFoto": "images/products/boot-core2.png",
     "IdTipoDeProduto": 3,
-    "IdMarcaProduto": 2
+    "IdCategoriaProduto": 2
   },
   {
     "Nome": "Core Purple Boots",
@@ -125,7 +125,7 @@
     "Preco": 199.99,
     "UrlFoto": "images/products/boot-core1.png",
     "IdTipoDeProduto": 3,
-    "IdMarcaProduto": 2
+    "IdCategoriaProduto": 2
   },
   {
     "Nome": "Angular Purple Boots",
@@ -133,7 +133,7 @@
     "Preco": 150,
     "UrlFoto": "images/products/boot-ang2.png",
     "IdTipoDeProduto": 3,
-    "IdMarcaProduto": 1
+    "IdCategoriaProduto": 1
   },
   {
     "Nome": "Angular Blue Boots",
@@ -141,6 +141,6 @@
     "Preco": 180,
     "UrlFoto": "images/products/boot-ang1.png",
     "IdTipoDeProduto": 3,
-    "IdMarcaProduto": 1
+    "IdCategoriaProduto": 1
   }
 ]

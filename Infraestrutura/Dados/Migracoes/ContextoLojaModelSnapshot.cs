@@ -15,7 +15,7 @@ namespace Infraestrutura.Dados.Migracoes
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
-            modelBuilder.Entity("Core.Entidades.MarcasProduto", b =>
+            modelBuilder.Entity("Core.Entidades.CategoriasProduto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -26,7 +26,7 @@ namespace Infraestrutura.Dados.Migracoes
 
                     b.HasKey("Id");
 
-                    b.ToTable("MarcaProduto");
+                    b.ToTable("CategoriaProduto");
                 });
 
             modelBuilder.Entity("Core.Entidades.Produto", b =>
@@ -40,7 +40,7 @@ namespace Infraestrutura.Dados.Migracoes
                         .HasColumnType("TEXT")
                         .HasMaxLength(180);
 
-                    b.Property<int>("IdMarcaProduto")
+                    b.Property<int>("IdCategoriaProduto")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("IdTipoDeProduto")
@@ -60,7 +60,7 @@ namespace Infraestrutura.Dados.Migracoes
 
                     b.HasKey("Id");
 
-                    b.HasIndex("IdMarcaProduto");
+                    b.HasIndex("IdCategoriaProduto");
 
                     b.HasIndex("IdTipoDeProduto");
 
@@ -83,9 +83,9 @@ namespace Infraestrutura.Dados.Migracoes
 
             modelBuilder.Entity("Core.Entidades.Produto", b =>
                 {
-                    b.HasOne("Core.Entidades.MarcasProduto", "MarcaProduto")
+                    b.HasOne("Core.Entidades.CategoriasProduto", "CategoriaProduto")
                         .WithMany()
-                        .HasForeignKey("IdMarcaProduto")
+                        .HasForeignKey("IdCategoriaProduto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
