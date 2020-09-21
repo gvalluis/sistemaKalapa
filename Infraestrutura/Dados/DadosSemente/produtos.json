@@ -1,0 +1,146 @@
+[
+  {
+    "Nome": "O Clássico",
+    "Descricao": "Barra 70% chocolate com açúcar demerara orgânico",
+    "Preco": 200,
+    "UrlFoto": "images/products/sb-ang1.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 1
+  },
+  {
+    "Nome": "Maresia de Limão",
+    "Descricao": "Barra 70% chocolate com óleos essenciais de limão siciliano e flor de sal e açúcar demerara orgânico",
+    "Preco": 150,
+    "UrlFoto": "images/products/sb-ang2.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 1
+  },
+  {
+    "Nome": "Mandarina",
+    "Descricao": "Barra 70% chocolate com óleo essencial de bergamota",
+    "Preco": 180,
+    "UrlFoto": "images/products/sb-core1.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 2
+  },
+  {
+    "Nome": "Ciranda na Mata",
+    "Descricao": "Barra 62% chocolate com óleos essenciais de pimenta rosa e laranja lima",
+    "Preco": 300,
+    "UrlFoto": "images/products/sb-core2.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 2
+  },
+  {
+    "Nome": "Pote de chocolate 70% ao leite de coco com café",
+    "Descricao": "Triângulos de chocolate 70% ao leite de coco caramelizado e pedaços de café especial",
+    "Preco": 250,
+    "UrlFoto": "images/products/sb-react1.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 4
+  },
+  {
+    "Nome": "Cremístiko",
+    "Descricao": "Creme de chocolate orgânico com pasta de gergelim",
+    "Preco": 120,
+    "UrlFoto": "images/products/sb-ts1.png",
+    "IdTipoDeProduto": 1,
+    "IdMarcaProduto": 5
+  },
+  {
+    "Nome": "Pirilampos em Ouro",
+    "Descricao": "Chocolate Branco com pedaços de nibs de Cupuaçu e proteina de gergelim",
+    "Preco": 10,
+    "UrlFoto": "images/products/hat-core1.png",
+    "IdTipoDeProduto": 2,
+    "IdMarcaProduto": 2
+  },
+  {
+    "Nome": "Pote de chocolates de Manjericão",
+    "Descricao": "Pote de triangulos de chocolate com óleo essencial de manjericão",
+    "Preco": 8,
+    "UrlFoto": "images/products/hat-react1.png",
+    "IdTipoDeProduto": 2,
+    "IdMarcaProduto": 4
+  },
+  {
+    "Nome": "Purple React Woolen Hat",
+    "Descricao": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Preco": 15,
+    "UrlFoto": "images/products/hat-react2.png",
+    "IdTipoDeProduto": 2,
+    "IdMarcaProduto": 4
+  },
+  {
+    "Nome": "Blue Code Gloves",
+    "Descricao": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Preco": 18,
+    "UrlFoto": "images/products/glove-code1.png",
+    "IdTipoDeProduto": 4,
+    "IdMarcaProduto": 3
+  },
+  {
+    "Nome": "Green Code Gloves",
+    "Descricao": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Preco": 15,
+    "UrlFoto": "images/products/glove-code2.png",
+    "IdTipoDeProduto": 4,
+    "IdMarcaProduto": 3
+  },
+  {
+    "Nome": "Purple React Gloves",
+    "Descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Preco": 16,
+    "UrlFoto": "images/products/glove-react1.png",
+    "IdTipoDeProduto": 4,
+    "IdMarcaProduto": 4
+  },
+  {
+    "Nome": "Green React Gloves",
+    "Descricao": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Preco": 14,
+    "UrlFoto": "images/products/glove-react2.png",
+    "IdTipoDeProduto": 4,
+    "IdMarcaProduto": 4
+  },
+  {
+    "Nome": "Redis Red Boots",
+    "Descricao": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Preco": 250,
+    "UrlFoto": "images/products/boot-redis1.png",
+    "IdTipoDeProduto": 3,
+    "IdMarcaProduto": 6
+  },
+  {
+    "Nome": "Core Red Boots",
+    "Descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Preco": 189.99,
+    "UrlFoto": "images/products/boot-core2.png",
+    "IdTipoDeProduto": 3,
+    "IdMarcaProduto": 2
+  },
+  {
+    "Nome": "Core Purple Boots",
+    "Descricao": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Preco": 199.99,
+    "UrlFoto": "images/products/boot-core1.png",
+    "IdTipoDeProduto": 3,
+    "IdMarcaProduto": 2
+  },
+  {
+    "Nome": "Angular Purple Boots",
+    "Descricao": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Preco": 150,
+    "UrlFoto": "images/products/boot-ang2.png",
+    "IdTipoDeProduto": 3,
+    "IdMarcaProduto": 1
+  },
+  {
+    "Nome": "Angular Blue Boots",
+    "Descricao": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Preco": 180,
+    "UrlFoto": "images/products/boot-ang1.png",
+    "IdTipoDeProduto": 3,
+    "IdMarcaProduto": 1
+  }
+]

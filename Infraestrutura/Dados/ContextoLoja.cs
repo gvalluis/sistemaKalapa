@@ -12,7 +12,7 @@ namespace Infraestrutura.Dados
         }
 
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<MarcasProduto> MarcaProduto { get; set; }
+        public DbSet<CategoriaProduto> CategoriaProduto { get; set; }
         public DbSet<TipoProduto> TipoProdutos { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -8,7 +8,7 @@ namespace Core.Entidades
         public string UrlFoto { get; set; }
         public TipoProduto TipoProduto { get; set; }
         public int IdTipoDeProduto { get; set; }
-        public MarcasProduto MarcaProduto { get; set; }
-        public int IdMarcaProduto { get; set; }
+        public CategoriaProduto Categoria { get; set; }
+        public int IdCategoriaProduto { get; set; }
     }
 }
