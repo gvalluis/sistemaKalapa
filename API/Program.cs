@@ -11,7 +11,7 @@ namespace API
 {
     public class Program
     {
-        public static async void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
             using(var scope = host.Services.CreateScope())
@@ -23,7 +23,13 @@ namespace API
                     var context = services.GetRequiredService<LojaContexto>();
                     await context.Database.MigrateAsync();
                 }     
+                catch (Exception ex)
+                {
+                    var logger = loggerFactory.CreateLogger<Program>();
+                    logger.LogError(ex, "Um erro ocorreu durante migracao");
+                }
             }
+            host.Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
