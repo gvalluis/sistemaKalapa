@@ -38,7 +38,7 @@ namespace Infraestrutura.Dados.Migracoes
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Nome = table.Column<string>(maxLength: 100, nullable: false),
+                    Name = table.Column<string>(maxLength: 100, nullable: false),
                     Descricao = table.Column<string>(maxLength: 180, nullable: false),
                     Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     UrlFoto = table.Column<string>(nullable: false),

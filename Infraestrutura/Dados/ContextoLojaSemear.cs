@@ -47,7 +47,7 @@ namespace Infraestrutura.Dados
 
                 if (!contexto.Produtos.Any())
                 {
-                    var produtoDados = File.ReadAllText("../Infraestrutura/Dados/DadosSemear/tipos.json");
+                    var produtoDados = File.ReadAllText("../Infraestrutura/Dados/DadosSemear/produtos.json");
 
                     var produtos = JsonSerializer.Deserialize<List<Produto>>(produtoDados);
 

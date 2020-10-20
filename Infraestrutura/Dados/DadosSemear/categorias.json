@@ -1,26 +1,26 @@
 [
   {
     "Id": 1,
-    "Nome": "Branco"
+    "Name": "Branco"
   },
   {
     "Id": 2,
-    "Nome": "Intenso"
+    "Name": "Intenso"
   },
   {
     "Id": 3,
-    "Nome": "Sem Açúcar"
+    "Name": "Sem Aï¿½ï¿½car"
   },
   {
     "Id": 4,
-    "Nome": "Moderado"
+    "Name": "Moderado"
   },
   {
     "Id": 5,
-    "Nome": "Especiais"
+    "Name": "Especiais"
   },
   {
     "Id": 6,
-    "Nome": "Inclusão"
+    "Name": "Inclusï¿½o"
   }
 ]
