@@ -33,5 +33,17 @@ namespace API.Controllers
 
             return await _repo.GetProdutoPorIdAsync(id);
         }
+
+        [HttpGet("categorias")]
+        public async Task<ActionResult<IReadOnlyList<CategoriaProduto>>> GetCategoriasProduto() 
+        {
+            return Ok(await _repo.GetCategoriaProdutosAsync());
+        }
+
+        [HttpGet("tipos")]
+        public async Task<ActionResult<IReadOnlyList<TipoProduto>>> GetTiposProduto() 
+        {
+            return Ok(await _repo.GetTiposProdutosAsync());
+        }
     }
 }
