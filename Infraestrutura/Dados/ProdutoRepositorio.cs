@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Core.Entidades;
 using Core.Interfaces;
@@ -28,6 +29,13 @@ namespace Infraestrutura.Dados
         }
         public async Task<IReadOnlyList<Produto>> GetProdutosAsync()
         {
+            var typeId = 1;
+
+            var products = _contexto.Produtos
+            .Where(x => x.IdTipoDeProduto == typeId)
+            .Include(x => x.Tipo)
+            .ToListAsync();
+            
             return await _contexto.Produtos
             .Include(p => p.Tipo)
             .Include(p => p.Categoria)

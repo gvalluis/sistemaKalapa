@@ -13,17 +13,24 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProdutosController : ControllerBase
     {
-        private readonly IProdutoRepositorio _repo;
-        public ProdutosController(IProdutoRepositorio repo)
+        private readonly IGenericRepository<Produto> _repoProduto;
+        private readonly IGenericRepository<TipoProduto> _repoTipo;
+        private readonly IGenericRepository<CategoriaProduto> _repoCategoria;
+        
+        public ProdutosController(IGenericRepository<Produto> repoProduto,
+        IGenericRepository<TipoProduto> repoTipo,
+        IGenericRepository<CategoriaProduto> repoCategoria)
         {
-            _repo = repo;
+            _repoCategoria = repoCategoria;
+            _repoTipo = repoTipo;
+            _repoProduto = repoProduto;
 
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Produto>>> GetProdutos()
         {
-            var produtos = await _repo.GetProdutosAsync();
+            var produtos = await _repoProduto.ListAllAsync();
 
             return Ok(produtos);
         }
@@ -31,19 +38,19 @@ namespace API.Controllers
         public async Task<ActionResult<Produto>> GetProduto(int id)
         {
 
-            return await _repo.GetProdutoPorIdAsync(id);
+            return await _repoProduto.GetByIdAsync(id);
         }
 
         [HttpGet("categorias")]
-        public async Task<ActionResult<IReadOnlyList<CategoriaProduto>>> GetCategoriasProduto() 
+        public async Task<ActionResult<IReadOnlyList<CategoriaProduto>>> GetCategoriasProduto()
         {
-            return Ok(await _repo.GetCategoriaProdutosAsync());
+            return Ok(await _repoCategoria.ListAllAsync());
         }
 
         [HttpGet("tipos")]
-        public async Task<ActionResult<IReadOnlyList<TipoProduto>>> GetTiposProduto() 
+        public async Task<ActionResult<IReadOnlyList<TipoProduto>>> GetTiposProduto()
         {
-            return Ok(await _repo.GetTiposProdutosAsync());
+            return Ok(await _repoTipo.ListAllAsync());
         }
     }
 }
